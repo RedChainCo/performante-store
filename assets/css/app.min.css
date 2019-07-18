@@ -983,7 +983,14 @@ only screen and (min-width: 1200px) {
 ==============================*/
 .header-area {
     padding: 30px 0;
+    background: #141414;
+
 }
+.has-submenu{
+    color: #fff !important;
+}
+
+
 
 @media only screen and (max-width: 767.98px) {
     .header-area {
@@ -1006,7 +1013,8 @@ only screen and (min-width: 1200px) {
 }
 
 .header-area .nav li a {
-    color: #1b1b1c;
+    /*color: #1b1b1c;*/
+    color: #fff;
     display: block;
     font-size: 15px;
     font-weight: 600;
@@ -1071,11 +1079,13 @@ only screen and (min-width: 992px) and (max-width: 1199.98px) {
     font-size: 25px;
     line-height: 1;
     position: relative;
-    color: #1b1b1c;
+    /*color: #1b1b1c;*/
+    color: #fff;
 }
 
 .mini-cart-wrap .btn-mini-cart .cart-total {
-    background-color: #1b1b1c;
+    /*background-color: #1b1b1c;*/
+    background-color: #a1de26;
     border-radius: 50%;
     color: #FFFFFF;
     display: block;
@@ -1545,7 +1555,9 @@ Scroll Top Button
     }
 }
 
-.slider-slide-item .slide-content h2,
+.slider-slide-item .slide-content h2 {
+    color: #a1de26;
+}
 .slider-slide-item .slide-content h3 {
     color: #d8d8d8;
 }
